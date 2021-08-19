@@ -1,7 +1,5 @@
 package sophisticated_wolves.compatibility;
 
-import net.minecraftforge.fml.common.Loader;
-
 /**
  * Sophisticated Wolves
  *
@@ -9,8 +7,6 @@ import net.minecraftforge.fml.common.Loader;
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  */
 public class Compatibility {
-
-    public static boolean IS_WOLF_ARMOR_INSTALLED;
 
     public static void checkMods() {
 //        if (Loader.isModLoaded("Thaumcraft")) {
